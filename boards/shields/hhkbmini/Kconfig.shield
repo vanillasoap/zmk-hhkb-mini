@@ -1,6 +1,6 @@
 if SHIELD_MY_BOARD
 
 config ZMK_KEYBOARD_NAME
-    default "hhkb40"
+    default "hhkbmini"
 
 endif
