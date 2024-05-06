@@ -4,9 +4,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define FN    1
-
-#define NONE 0
 
 / {
     keymap {
