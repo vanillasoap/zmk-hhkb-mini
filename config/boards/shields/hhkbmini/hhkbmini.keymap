@@ -3,38 +3,26 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEFAULT 0
-#define FN    1
-
-#define NONE 0
-
 / {
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-
-// --------------------------------------------------------------------------------------------------------------------------
-// |   ESC   |    Q    |    W    |    E    |    R    |    T    |    Y    |    U    |    I    |    O    |    P    |  BS  |
-// |   TAB   |    A    |    S    |    D    |    F    |    G    |    H    |    J    |    K    |    L    |      ENTER     |
-// |  SHIFT  |    Z    |    X    |    C    |    V    |    B    |    N    |    M    |    ?    |      SHIFT     |   FN    |
-//                                         |   LALT  |   LGUI  |  SPACE  |  R ALT  |
+        default {
             bindings = <
-    &kp ESC         &kp Q       &kp W       &kp E     &kp R     &kp T      &kp Y     &kp U     &kp I       &kp O     &kp P    &kp BSLH
-    &kp TAB         &kp A       &kp S       &kp D     &kp F     &kp G      &kp H     &kp J     &kp K       &kp L     &kp RET
-    &kp LSHIFT      &kp Z       &kp X       &kp C     &kp V     &kp B      &kp N     &kp M     &kp RSHIFT  &kp RCTRL
-                                            &kp LALT  &kp LGUI  &kp SPACE  &kp RALT
+&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &tog 1  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp BSPC  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp FSLH  &kp RSHFT  &trans  &kp LALT  &kp LGUI  &kp SPACE  &kp RALT
             >;
-
         };
 
-         FN {
-             bindings = <
-    &kp ESC         &kp Q       &kp W       &kp E     &kp R     &kp T      &kp Y     &kp U     &kp I       &kp O     &kp P    &kp BSLH
-    &kp TAB         &kp A       &kp S       &kp D     &kp F     &kp G      &kp H     &kp J     &kp K       &kp L     &kp RET
-    &kp LSHIFT      &kp Z       &kp X       &kp C     &kp V     &kp B      &kp N     &kp M     &kp RSHIFT  &kp RCTRL
-                                            &kp LALT  &kp LGUI  &kp SPACE  &kp RALT
-             >;
+        numpad {
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp MINUS  &kp EQUAL  &trans  &trans  &kp LBKT  &kp RBKT  &kp BSLH  &kp SEMI  &kp APOS  &kp COMMA  &kp DOT  &kp FSLH  &trans  &trans  &trans  &trans  &kp TAB  &trans
+            >;
+        };
+
+        wasd {
+            bindings = <
+&trans  &trans  &kp UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
