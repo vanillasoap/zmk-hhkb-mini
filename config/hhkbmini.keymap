@@ -18,5 +18,6 @@
     &kp LSHIFT      &kp Z       &kp X       &kp C     &kp V     &kp B      &kp N     &kp M     &kp RSHIFT  &kp F
                                             &kp LALT  &kp LGUI  &kp SPACE  &kp RALT
             >;
+        };
     };
 };
