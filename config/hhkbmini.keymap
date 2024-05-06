@@ -14,7 +14,5 @@
     &kp TAB         &kp A       &kp S       &kp D     &kp F     &kp G      &kp H     &kp J     &kp K       &kp L     &kp RET
     &kp LSHIFT      &kp Z       &kp X       &kp C     &kp V     &kp B      &kp N     &kp M     &kp RSHIFT  &kp F
                                             &kp LALT  &kp LGUI  &kp SPACE  &kp RALT
-            >;
-        };
-    };
+    >;
 };
