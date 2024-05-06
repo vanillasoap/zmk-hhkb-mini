@@ -63,7 +63,7 @@
                 "y": 0
             },
             {
-                "label": "Back<br>Space",
+                "label": "Backspace",
                 "x": 11,
                 "y": 0
             },
@@ -125,7 +125,7 @@
                 "w": 1.75
             },
             {
-                "label": "Shift",
+                "label": "LShift",
                 "x": 0,
                 "y": 2,
                 "w": 1.75
@@ -171,7 +171,7 @@
                 "y": 2
             },
             {
-                "label": "Shift",
+                "label": "RShift",
                 "x": 9.75,
                 "y": 2,
                 "w": 1.25
@@ -182,22 +182,23 @@
                 "y": 2
             },
             {
-                "label": "Ctrl",
+                "label": "LAlt",
                 "x": 1.25,
                 "y": 3
             },
             {
-                "label": "Code",
+                "label": "Super",
                 "x": 2.25,
                 "y": 3
             },
             {
+                "label": "Space",
                 "x": 3.25,
                 "y": 3,
                 "w": 6.25
             },
             {
-                "label": "Alt",
+                "label": "RAlt",
                 "x": 9.5,
                 "y": 3,
                 "w": 1.25
