@@ -1,4 +1,4 @@
-if SHIELD_DATAPAD
+if SHIELD_HHKBMINI
 
 config ZMK_KEYBOARD_NAME
 	default "hhkbmini"
