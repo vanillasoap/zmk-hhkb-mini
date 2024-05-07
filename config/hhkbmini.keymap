@@ -2,6 +2,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        toggle {
+            bindings = <&tog 2>;
+            key-positions = <23 12>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
