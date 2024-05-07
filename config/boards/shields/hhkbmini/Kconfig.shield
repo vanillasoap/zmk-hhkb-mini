@@ -1,2 +1,2 @@
-config SHIELD_DATAPAD
+config SHIELD_HHKBMINI
 	def_bool $(shields_list_contains, hhkbmini)
